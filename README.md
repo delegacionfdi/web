@@ -6,6 +6,10 @@
 
 Web de la Delegación de Alumnos de la Facultad de Informática que emula el estilo de las páginas principales de la Universidad complutense de Madrid.
 
+<div align="center">
+  <img src="https://github.com/delegacionfdi/web/blob/master/img/portada-readme.png" alt="Portada DAFI" width="70%"/>
+</div>
+
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)    
 
