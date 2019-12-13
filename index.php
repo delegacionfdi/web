@@ -187,7 +187,7 @@
                 <a title="FAQ" href="#">FAQ</a>
             </li>
             <li class="dropdown resalte lead">
-                <a target="_blank" title="Contact" href="https://informatica.ucm.es/contacto">
+                <a target="_blank" title="Contacto" href="https://informatica.ucm.es/contacto">
                     Contacto
                 </a>
             </li>
