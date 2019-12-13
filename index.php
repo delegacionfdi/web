@@ -27,8 +27,8 @@
                 'gtm.start':
                     new Date().getTime(), event: 'gtm.js'
             });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            let f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l !== 'dataLayer' ? '&l=' + l : '';
             j.async = true;
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
@@ -78,7 +78,8 @@
                 <li>
                     <ul id="lg_items">
 
-                        <li><a  target="_blank" href="https://www.informatica.ucm.es" title="Web FDI: Facultad de Informática"
+                        <li><a target="_blank" href="https://www.informatica.ucm.es"
+                               title="Web FDI: Facultad de Informática"
                                class="enlace">Web Facultad de Informática</a></li>
                     </ul>
                 </li>
@@ -89,17 +90,17 @@
     <div class="container" id="cabecera">
         <div class="row">
             <div class="col-lg-6 col-sm-6 col-xs-12" id="logo">
-                <a  target="_blank" href="http://delegacion.fdi.ucm.es/" title="Universidad Complutense de Madrid">
+                <a target="_blank" href="http://delegacion.fdi.ucm.es/" title="Universidad Complutense de Madrid">
                     <img src="img/logo_dafi.png" alt="ucm" title="Universidad Complutense de Madrid">
                 </a>
             </div>
             <div class="col-lg-6 col-sm-6 col-xs-12" id="logo" style="text-align: right;">
-                <a  target="_blank" href="https://www.ucm.es/" title="Universidad Complutense de Madrid">
+                <a target="_blank" href="https://www.ucm.es/" title="Universidad Complutense de Madrid">
                     <img src="img/logo.png" alt="ucm" title="Universidad Complutense de Madrid">
                 </a>
             </div>
             <div class="col-lg-7 col-sm-7 col-xs-12" id="titulo_website">
-                <h1 class="web_title_ucm"><a  target="_blank" href="https://www.ucm.es/"
+                <h1 class="web_title_ucm"><a target="_blank" href="https://www.ucm.es/"
                                              title="Portada - Universidad Complutense de Madrid">Universidad Complutense
                                                                                                  de Madrid</a></h1>
             </div>
@@ -120,18 +121,26 @@
 
         <ul class="nav nav-justified" id="contenidomenu">
             <li class="dropdown resalte lead">
-                <a  target="_blank" title="Exámenes" href="https://drive.google.com/folderview?id=0B6xNlYS7GPDXbkFCblVDVXphMlk"
-                   target="_blank">Exámenes</a>
+                <a target="_blank" title="Exámenes"
+                   href="https://drive.google.com/folderview?id=0B6xNlYS7GPDXbkFCblVDVXphMlk">
+                    Exámenes
+                </a>
             </li>
             <li class="dropdown resalte lead">
-                <a title="Representación" href="/representacion" class="dropdown-toggle" data-toggle="dropdown">Representación</a>
+                <a title="Representación" href="/representacion" class="dropdown-toggle" data-toggle="dropdown">
+                    Representación
+                </a>
                 <ul class="dropdown-menu" role="menu">
                     <li>
-                        <a  target="_blank" title="RITSI" href="https://ritsi.org" target="_blank">RITSI</a>
+                        <a target="_blank" title="RITSI" href="https://ritsi.org">
+                            RITSI
+                        </a>
                     </li>
                     <li>
-                        <a  target="_blank" title="Delegación Central de Estudiantes" href="https://www.ucm.es/dcestudiantes"
-                           target="_blank">Delegación Central de Estudiantes</a>
+                        <a target="_blank" title="Delegación Central de Estudiantes"
+                           href="https://www.ucm.es/dcestudiantes">
+                            Delegación Central de Estudiantes
+                        </a>
                     </li>
                     <li>
                         <!--  <a href="/estudiar" title="Estudiar" aria-label="Estudiar">
@@ -144,18 +153,22 @@
                 <a title="Recursos" href="/recursos" class="dropdown-toggle" data-toggle="dropdown">Recursos</a>
                 <ul class="dropdown-menu" role="menu">
                     <li>
-                        <a  target="_blank" title="Investigación"
-                           href="https://drive.google.com/folderview?id=1jjO5sj_Y2rqnheXNkJoMti8JydjDx8O_"
-                           target="_blank">Actas de la ejecutiva</a>
+                        <a target="_blank" title="Investigación"
+                           href="https://drive.google.com/folderview?id=1jjO5sj_Y2rqnheXNkJoMti8JydjDx8O_">
+                            Actas de la ejecutiva
+                        </a>
                     </li>
                     <li>
-                        <a  target="_blank" title="OTRI" href="https://drive.google.com/folderview?id=1iPucKPT2JYEShUkJciyIGjukj3ttqrwm"
-                           target="_blank">Actas del pleno</a>
+                        <a target="_blank" title="OTRI"
+                           href="https://drive.google.com/folderview?id=1iPucKPT2JYEShUkJciyIGjukj3ttqrwm">
+                            Actas del pleno
+                        </a>
                     </li>
                     <li>
-                        <a  target="_blank" title="Servicio de Investigación"
-                           href="https://drive.google.com/a/ucm.es/file/d/1svKxtGAcvzxn8EMjasyOkM6s59U1sASS/view?usp=drivesdk"
-                           target="_blank">Estatutos</a>
+                        <a target="_blank" title="Servicio de Investigación"
+                           href="https://drive.google.com/a/ucm.es/file/d/1svKxtGAcvzxn8EMjasyOkM6s59U1sASS/view?usp=drivesdk">
+                            Estatutos
+                        </a>
                     </li>
                     <li>
                         <!--  <a href="/investigar" title="Investigar" aria-label="Investigar">
@@ -165,15 +178,18 @@
                 </ul>
             </li>
             <li class="dropdown resalte lead">
-                <a  target="_blank" title="Impresora 3D"
-                   href="https://docs.google.com/a/ucm.es/forms/d/1KvZpQJbx_aJOTn2A--nbMh72vLrW6uAMsC1qKQTZrqQ/edit?usp=drivesdk"
-                   target="_blank">Impresora 3D</a>
+                <a target="_blank" title="Impresora 3D"
+                   href="https://docs.google.com/a/ucm.es/forms/d/1KvZpQJbx_aJOTn2A--nbMh72vLrW6uAMsC1qKQTZrqQ/edit?usp=drivesdk">
+                    Impresora 3D
+                </a>
             </li>
             <li class="dropdown resalte lead">
                 <a title="FAQ" href="#">FAQ</a>
             </li>
             <li class="dropdown resalte lead">
-                <a target="_blank" title="Contact" href="https://informatica.ucm.es/contacto">Contacto</a>
+                <a target="_blank" title="Contact" href="https://informatica.ucm.es/contacto">
+                    Contacto
+                </a>
             </li>
         </ul>
     </div>
@@ -199,7 +215,8 @@
                         </figure>
                         <div class="news1_txt carousel-caption-ucm">
                             <h3>
-                                <a  target="_blank" href="https://www.ucm.es/data/cont/docs/3-2018-05-29-Protocolo%20Identidad%20de%20G%C3%A9nero%20UCM.pdf"
+                                <a target="_blank"
+                                   href="https://www.ucm.es/data/cont/docs/3-2018-05-29-Protocolo%20Identidad%20de%20G%C3%A9nero%20UCM.pdf"
                                    title="La bandera multicolor ya ondea en nuestro Edificio de Estudiantes. La UCM, espacio de libertad, de convivencia y de seguridad"
                                    class="enlace">La bandera multicolor ya ondea en nuestro Edificio de Estudiantes. La
                                                   UCM, espacio de libertad, de convivencia y de seguridad</a></h3>
@@ -211,7 +228,7 @@
                                  alt="La línea de autobús U seguirá en funcionamiento hasta el 19 de julio y volverá a funcionar a partir del 2 de septiembre (inclusive)"/>
                         </figure>
                         <div class="news1_txt carousel-caption-ucm">
-                            <h3><a  target="_blank" href="https://twitter.com/CarlosMnoMra/status/1143872599061147648"
+                            <h3><a target="_blank" href="https://twitter.com/CarlosMnoMra/status/1143872599061147648"
                                    title="La línea de autobús U seguirá en funcionamiento hasta el 19 de julio y volverá a funcionar a partir del 2 de septiembre (inclusive)"
                                    class="enlace">La línea de autobús U seguirá en funcionamiento hasta el 19 de julio y
                                                   volverá a funcionar a partir del 2 de septiembre (inclusive)</a></h3>
@@ -223,7 +240,7 @@
                                  alt="El próximo lunes 10 de junio de 10:30 a 14:00 en @informaticaucm tendremos una sesión informativa de optativas. ¡Conoce, de la mano de los profesores que las impartirán, las optativas que te puedan interesar para el próximo curso!"/>
                         </figure>
                         <div class="news1_txt carousel-caption-ucm">
-                            <h3><a  target="_blank" href="https://informatica.ucm.es/presentacion-optativas-2019-2020 …"
+                            <h3><a target="_blank" href="https://informatica.ucm.es/presentacion-optativas-2019-2020 …"
                                    title="El próximo lunes 10 de junio de 10:30 a 14:00 en @informaticaucm tendremos una sesión informativa de optativas. ¡Conoce, de la mano de los profesores que las impartirán, las optativas que te puedan interesar para el próximo curso!"
                                    class="enlace">El próximo lunes 10 de junio de 10:30 a 14:00 en @informaticaucm
                                                   tendremos una sesión informativa de optativas. ¡Conoce, de la mano de
@@ -237,7 +254,7 @@
                                  alt="Se aprueba por unanimidad declarar el Estado de Emergencia Climática y reconocimiento del movimiento Fridays For Future. "/>
                         </figure>
                         <div class="news1_txt carousel-caption-ucm">
-                            <h3><a  target="_blank" href="http://complutensesxelclima.org/"
+                            <h3><a target="_blank" href="http://complutensesxelclima.org/"
                                    title="Se aprueba por unanimidad declarar el Estado de Emergencia Climática y reconocimiento del movimiento Fridays For Future. "
                                    class="enlace">Se aprueba por unanimidad declarar el Estado de Emergencia Climática y
                                                   reconocimiento del movimiento Fridays For Future. </a></h3>
@@ -260,7 +277,7 @@
                                  alt="Matriculación, preguntas frecuentes" class="img-responsive img_not_sec_hor"/>
                         </figure>
                         <div class="news2_txt">
-                            <h3><a  target="_blank" href="https://www.ucm.es/matricula-de-grado-1"
+                            <h3><a target="_blank" href="https://www.ucm.es/matricula-de-grado-1"
                                    title="Matriculación, preguntas frecuentes">Matriculación, preguntas frecuentes</a>
                             </h3>
                         </div>
@@ -273,10 +290,11 @@
                                  class="img-responsive img_not_sec_vert"/>
                         </figure>
                         <div class="news2_txt">
-                            <h3><a  target="_blank" href="https://informatica.ucm.es/horarios-apertura" title="Horario de verano 2019">Horario
-                                                                                                                      de
-                                                                                                                      verano
-                                                                                                                      2019</a>
+                            <h3><a target="_blank" href="https://informatica.ucm.es/horarios-apertura"
+                                   title="Horario de verano 2019">Horario
+                                                                  de
+                                                                  verano
+                                                                  2019</a>
                             </h3>
                         </div>
                     </article>
@@ -297,22 +315,23 @@
                         $title_notice = explode('</a>', $title[$i]);
                         $title_notice = explode('\'>', $title_notice[0]);
 
-                        echo '<li><a  target="_blank" href="' . $title_notice[0] . '" title="' . $title_notice[1] . '" class="enlace">' . $title_notice[1] . '</a></li>';
+                        echo '<li><a target="_blank" href="' . $title_notice[0] . '" title="' . $title_notice[1] . '" class="enlace">' . $title_notice[1] . '</a></li>';
                     }
                     ?>
                 </ul>
                 <div class="">
                     <ul class="enlaces-noticias">
-                        <li><a  target="_blank" href="https://eventos.ucm.es/" class="enlace" title="UCM Eventos">
+                        <li><a target="_blank" href="https://eventos.ucm.es/" class="enlace" title="UCM Eventos">
                                 <img src="img/ucm-eventos.jpg" alt="UCM Eventos"/>
                             </a></li>
-                        <li><a  target="_blank" href="https://www.ucm.es/directo" class="enlace" title="UCM Directo">
+                        <li><a target="_blank" href="https://www.ucm.es/directo" class="enlace" title="UCM Directo">
                                 <img src="img/ucm-directo.png" alt="UCM Directo"/>
                             </a></li>
                         <li>
-                            <a  target="_blank" href="https://www.ucm.es/noticias" class="enlace texto-gris" title="Más noticias">Más
-                                                                                                                 noticias</a>
-                            <a  target="_blank" href="https://tribuna.ucm.es/" class="enlace texto-gris news_tribuna"
+                            <a target="_blank" href="https://www.ucm.es/noticias" class="enlace texto-gris"
+                               title="Más noticias">Más
+                                                    noticias</a>
+                            <a target="_blank" href="https://tribuna.ucm.es/" class="enlace texto-gris news_tribuna"
                                title="Tribuna Complutense">
                                 <img src="img/tribuna-complutense.jpg" alt="Tribuna Complutense"/>
                             </a>
@@ -349,28 +368,32 @@
         <div class="row">
             <div class="">
                 <ul class="iconos">
-                    <li><a  target="_blank" href="https://informatica.ucm.es/profesores-y-tutorias" class="enlace"><img
+                    <li><a target="_blank" href="https://informatica.ucm.es/profesores-y-tutorias" class="enlace"><img
                                     alt="Profesores y tutorías" src="img/icono/icono-informacion.png"/>
                             <p class="caption texto-gris text-center">PROFESORES Y TUTORÍAS</p></a></li>
-                    <li><a  target="_blank" href="https://geaportal.ucm.es/ServiciosApp" class="enlace"><img
+                    <li><a target="_blank" href="https://geaportal.ucm.es/ServiciosApp" class="enlace"><img
                                     alt="Expediente y notas (geaportal)" src="img/icono/icono-gea.png"/>
                             <p class="caption texto-cielo text-center">EXPEDIENTE Y NOTAS (GEAPORTAL)</p></a></li>
-                    <li><a  target="_blank" href="https://www.ucm.es/campusvirtual" class="enlace"><img alt="Campus Virtual"
-                                                                                       src="img/icono/icono-campus-virtual.png"/>
+                    <li><a target="_blank" href="https://www.ucm.es/campusvirtual" class="enlace"><img
+                                    alt="Campus Virtual"
+                                    src="img/icono/icono-campus-virtual.png"/>
                             <p class="caption texto-rojo text-center">CAMPUS VIRTUAL</p></a></li>
-                    <li><a  target="_blank" href="https://biblioteca.ucm.es/" class="enlace"><img alt="Biblioteca"
-                                                                                 src="img/icono/icono-biblioteca.png"/>
+                    <li><a target="_blank" href="https://biblioteca.ucm.es/" class="enlace"><img alt="Biblioteca"
+                                                                                                 src="img/icono/icono-biblioteca.png"/>
                             <p class="caption texto-verde text-center">BIBLIOTECA</p></a></li>
-                    <li><a  target="_blank" href="https://informatica.ucm.es/examenes-por-curso-y-grupo" class="enlace"><img
+                    <li><a target="_blank" href="https://informatica.ucm.es/examenes-por-curso-y-grupo"
+                           class="enlace"><img
                                     alt="Exámenes" src="img/icono/icono-contratante.png"/>
                             <p class="caption texto-amarillo text-center">EXAMENES</p></a></li>
-                    <li><a  target="_blank" href="https://informatica.ucm.es/calendario-academico" class="enlace"><img
+                    <li><a target="_blank" href="https://informatica.ucm.es/calendario-academico" class="enlace"><img
                                     alt="Calendario Académico" src="img/icono/icono-calendario.png"/>
                             <p class="caption texto-yellow text-center">CALENDARIO</p></a></li>
-                    <li><a  target="_blank" href="https://informatica.ucm.es/ocupacion-de-laboratorios/" class="enlace"><img
+                    <li><a target="_blank" href="https://informatica.ucm.es/ocupacion-de-laboratorios/"
+                           class="enlace"><img
                                     alt="Ocupación Laboratotios" src="img/icono/icono-transparencia.png"/>
-                            <p class="caption texto-azul text-center">OCUPACIÓN</br>LABORATORIOS</p></a></li>
-                    <li><a  target="_blank" href="https://web.fdi.ucm.es/docencia/PlanDocente_PorCursoyGrupo.aspx?fdicurso=2019-2020"
+                            <p class="caption texto-azul text-center">OCUPACIÓN LABORATORIOS</p></a></li>
+                    <li><a target="_blank"
+                           href="https://web.fdi.ucm.es/docencia/PlanDocente_PorCursoyGrupo.aspx?fdicurso=2019-2020"
                            class="enlace"><img alt="Profesores y asignaturas" src="img/icono/icono-informacion.png"/>
                             <p class="caption texto-gris text-center">PROFESORES Y ASIGNATURAS</p></a></li>
                 </ul>
@@ -427,12 +450,13 @@
                             <!-- <a  target="_blank" href="/empleo-ucm" title="Estatuto del estudiante">Sugerencias y quejas</a> -->
                         </li>
                         <li id="75">
-                            <a  target="_blank" href="https://www.ucm.es/la-casa-del-estudiante/estatuto-del-estudiante-ucm/"
-                                       title="Buzón de sugerencias y quejas">Estatuto del Estudiante</a>
+                            <a target="_blank"
+                               href="https://www.ucm.es/la-casa-del-estudiante/estatuto-del-estudiante-ucm/"
+                               title="Buzón de sugerencias y quejas">Estatuto del Estudiante</a>
                         </li>
                         <li id="1206">
-                            <a  target="_blank" href="https://informatica.ucm.es/delegacion-y-asociaciones"
-                                         title="Delegación y asociaciones">Delegación y asociaciones</a>
+                            <a target="_blank" href="https://informatica.ucm.es/delegacion-y-asociaciones"
+                               title="Delegación y asociaciones">Delegación y asociaciones</a>
                         </li>
                     </ul>
                 </nav>
@@ -441,17 +465,18 @@
                 <nav id="pie_2">
                     <ul>
                         <li id="177">
-                            <a  target="_blank" href="https://informatica.ucm.es/ofertas-de-empleo" title="Ofertas de empleo">
+                            <a target="_blank" href="https://informatica.ucm.es/ofertas-de-empleo"
+                               title="Ofertas de empleo">
                                 Ofertas de empleo
                             </a>
                         </li>
                         <li id="12">
-                            <a  target="_blank" href="https://gipe.ucm.es/authestu.php" title="Plataforma de prácticas">
+                            <a target="_blank" href="https://gipe.ucm.es/authestu.php" title="Plataforma de prácticas">
                                 Plataforma de prácticas
                             </a>
                         </li>
                         <li id="1361">
-                            <a  target="_blank" href="http://www.fdi.ucm.es/migs/" title="Museo">
+                            <a target="_blank" href="http://www.fdi.ucm.es/migs/" title="Museo">
                                 Museo
                             </a>
                         </li>
@@ -459,9 +484,9 @@
                 </nav>
             </div>
             <div class="col-sm-4 col-xs-12 cei">
-                <a  href="https://www.ucm.es/hrs4r" target="_blank" title="UCM - HR Excellence in Research"><img
+                <a href="https://www.ucm.es/hrs4r" target="_blank" title="UCM - HR Excellence in Research"><img
                             src="img/hr.jpg" alt="HR Excellence in Research"/></a>
-                <a  href="http://www.campusmoncloa.es/" target="_blank" title="CAMPUS DE EXCELENCIA INTERNACIONAL"><img
+                <a href="http://www.campusmoncloa.es/" target="_blank" title="CAMPUS DE EXCELENCIA INTERNACIONAL"><img
                             src="img/cei.jpg" alt="CAMPUS DE EXCELENCIA INTERNACIONAL"/></a>
             </div>
         </div>
@@ -496,6 +521,7 @@
         </div>
     </div>
 </footer>
+
 <script type="text/javascript" src="assets/js/jquery.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.js"></script>
 <script type="text/javascript" src="assets/js/ucm.js"></script>
@@ -517,6 +543,5 @@
     ga('ucmHistorico.send', 'pageview');
     setTimeout("ga('send','event','NoBounce','page visit over 5 seconds')", 5000);
 </script>
-
 </body>
 </html>
