@@ -98,7 +98,7 @@
 			
 			<ul class="nav nav-justified" id="contenidomenu">
 				<li class="dropdown resalte lead">
-					<a title="Exámenes" href="https://drive.google.com/folderview?id=0B6xNlYS7GPDXbkFCblVDVXphMlk" target="_blank">Exámenes</a>
+					<a title="Exámenes" href="https://drive.google.com/open?id=0B6xNlYS7GPDXeUhtaWhsTkZ1eFE" target="_blank">Exámenes</a>
 				</li>
 				<li class="dropdown resalte lead">
 					<a title="Representación" href="/representacion" class="dropdown-toggle" data-toggle="dropdown">Representación</a>
