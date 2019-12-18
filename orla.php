@@ -143,7 +143,7 @@
 										<div class="contact-info">
 											<h3>Si quieres hacerte la orla este año:</h3>
 											<div class="contact-desc"><p><a class="postlink" href="./pdf/guiaOrla.pdf">Sigue estos 9 pasos</a></p></div>
-											
+											<div class="contact-desc"><p><a class="postlink" href="./pdf/esquemaOrla.pdf">Esquema</a></p></div>
 										</div>
 									</li>
 								</ul>
