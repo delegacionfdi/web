@@ -98,7 +98,7 @@
 			
 			<ul class="nav nav-justified" id="contenidomenu">
 				<li class="dropdown resalte lead">
-					<a title="Exámenes" href="https://drive.google.com/open?id=0B6xNlYS7GPDXeUhtaWhsTkZ1eFE" target="_blank">Exámenes</a>
+					<a title="Exámenes" href="https://drive.google.com/drive/u/0/folders/0B6xNlYS7GPDXeUhtaWhsTkZ1eFE" target="_blank">Exámenes</a>
 				</li>
 				<li class="dropdown resalte lead">
 					<a title="Representación" href="/representacion" class="dropdown-toggle" data-toggle="dropdown">Representación</a>
@@ -157,7 +157,7 @@
 								<img src="img/noticias/edificioInformatica.jpg" alt="Ya está actualizado el banco de exámenes de la FDI" />
 							</figure>
 							<div class="news1_txt carousel-caption-ucm">
-								<h3><a href="https://drive.google.com/open?id=0B6xNlYS7GPDXeUhtaWhsTkZ1eFE" title="Ya está actualizado el banco de exámenes de la FDI" class="enlace">Ya está actualizado el banco de exámenes de la FDI</a></h3>
+								<h3><a href="https://drive.google.com/drive/u/0/folders/0B6xNlYS7GPDXeUhtaWhsTkZ1eFE" title="Ya está actualizado el banco de exámenes de la FDI" class="enlace">Ya está actualizado el banco de exámenes de la FDI</a></h3>
 							</div>
 						</article>
 						<article class="item">
