@@ -105,9 +105,6 @@
 					<ul class="dropdown-menu" role="menu">
 						<li><a title="RITSI" href="https://ritsi.org" target="_blank">RITSI</a></li>
 						<li><a title="Delegación Central de Estudiantes" href="https://www.ucm.es/dcestudiantes" target="_blank">Delegación Central de Estudiantes</a></li>
-						<li>
-							<a href="/estudiar" title="Estudiar" aria-label="Estudiar"><span class="fa fa-plus-circle" aria-hidden="true"  title="Estudiar"></span></a>
-						</li>
 					</ul>
 				</li>
 				<li class="dropdown resalte lead">
@@ -116,7 +113,7 @@
 						<li><a title="Investigación" href="https://drive.google.com/folderview?id=1jjO5sj_Y2rqnheXNkJoMti8JydjDx8O_" target="_blank">Actas de la ejecutiva</a></li>
 						<li><a title="OTRI" href="https://drive.google.com/folderview?id=1iPucKPT2JYEShUkJciyIGjukj3ttqrwm" target="_blank">Actas del pleno</a></li>
 						<li><a title="Servicio de Investigación" href="https://drive.google.com/a/ucm.es/file/d/1svKxtGAcvzxn8EMjasyOkM6s59U1sASS/view?usp=drivesdk" target="_blank">Estatutos</a></li>
-						<li><a href="/investigar" title="Investigar" aria-label="Investigar"><span class="fa fa-plus-circle" aria-hidden="true"  title="Investigar"></span></a></li>
+						
 					</ul>
 				</li>
 				<li class="dropdown resalte lead">
@@ -310,7 +307,7 @@
 		</div>
 		<div class="container">
 			<div class="row" id="pie_contacto">
-				<div class="col-sm-3 col-xs-12">&copy; <a href="https://garciabaameiro.com" target="_blank"> Daniel García Baameiro </a> based on website <a href="https://ucm.es" target="_blank"> Universidad Complutense Madrid</a></div>
+				<div class="col-sm-3 col-xs-12">&copy; <a href="https://www.linkedin.com/in/csaraiba/" target="_blank"> Cristóbal Saraiba Torres </a>, <a href="https://github.com/pablolop002" target="_blank"> Pablo López </a> & <a href="https://garciabaameiro.com" target="_blank"> Daniel García Baameiro </a> based on website <a href="https://ucm.es" target="_blank"> Universidad Complutense Madrid</a></div>
 				<div class="col-sm-3 col-xs-12"><a href="https://informatica.ucm.es/contacto" title="Contacto">Localización y contacto</a></div>
 				<div class="col-sm-2 col-xs-12"><a href="https://www.ucm.es/aviso-legal" title="Aviso Legal">Aviso Legal</a></div>
 				<div class="col-sm-3 col-xs-12"><a href="https://www.ucm.es/datos-personales" title="Protección de datos">Protección de datos</a></div>
